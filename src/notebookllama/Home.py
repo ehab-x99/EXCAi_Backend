@@ -116,7 +116,7 @@ def sync_create_podcast(file_content: str):
 
 # Display the network
 st.set_page_config(
-    page_title="NotebookLlaMa - Home",
+    page_title="EXCAi_3.0 - Home",
     page_icon="🏠",
     layout="wide",
     menu_items={
@@ -128,7 +128,7 @@ st.set_page_config(
 st.sidebar.header("Home🏠")
 st.sidebar.info("To switch to the Document Chat, select it from above!🔺")
 st.markdown("---")
-st.markdown("## NotebookLlaMa - Home🦙")
+st.markdown("## EXCAi_3.0 - Home🦙")
 
 file_input = st.file_uploader(
     label="Upload your source PDF file!", accept_multiple_files=False

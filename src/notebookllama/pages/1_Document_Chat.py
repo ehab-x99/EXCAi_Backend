@@ -23,12 +23,12 @@ def sync_chat(inpt: str):
 
 
 # Chat Interface
-st.set_page_config(page_title="NotebookLlaMa - Document Chat", page_icon="🗣")
+st.set_page_config(page_title="EXCAi_3.0 - Document Chat", page_icon="🗣")
 
-st.sidebar.header("Document Chat🗣")
+st.sidebar.header("Document Chat")
 st.sidebar.info("To switch to the Home page, select it from above!🔺")
 st.markdown("---")
-st.markdown("## NotebookLlaMa - Document Chat🗣")
+st.markdown("## EXCAi_3.0 - Document Chat")
 
 # Initialize chat history
 if "messages" not in st.session_state:

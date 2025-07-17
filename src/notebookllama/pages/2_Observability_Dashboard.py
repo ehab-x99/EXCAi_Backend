@@ -113,12 +113,12 @@ def create_status_pie_chart(df: pd.DataFrame):
 
 
 # Streamlit UI
-st.set_page_config(page_title="NotebookLlaMa - Observability Dashboard", page_icon="🔍")
+st.set_page_config(page_title="EXCAi_3.0 - Observability Dashboard", page_icon="🔍")
 
-st.sidebar.header("Observability Dashboard🔍")
+st.sidebar.header("Observability Dashboard")
 st.sidebar.info("To switch to the other pages, select them from above!🔺")
 st.markdown("---")
-st.markdown("## NotebookLlaMa - Observability Dashboard🔍")
+st.markdown("## EXCAi_3.0 - Observability Dashboard")
 
 # Get the data
 df_data = display_sql()
