@@ -5,7 +5,7 @@ import os
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
-from utils import verify_claim as sync_verify_claim
+from verifying import verify_claim as sync_verify_claim
 from llama_index.tools.mcp import BasicMCPClient
 
 MCP_CLIENT = BasicMCPClient(command_or_url="http://localhost:8000/mcp")

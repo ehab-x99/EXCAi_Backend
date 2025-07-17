@@ -6,7 +6,7 @@ import tempfile as tmp
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 import asyncio
-from utils import get_plots_and_tables
+from processing import get_plots_and_tables
 import streamlit as st
 from PIL import Image
 

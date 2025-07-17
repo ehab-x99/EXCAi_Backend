@@ -1,6 +1,6 @@
 [project]
 name = "notebookllama"
-version = "0.3.1"
+version = "0.4.0"
 description = "An OSS and LlamaCloud-backed alternative to NotebookLM"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -34,6 +34,7 @@ dependencies = [
   "pytest-asyncio>=1.0.0",
   "python-dotenv>=1.1.1",
   "pyvis>=0.3.2",
+  "randomname>=0.2.1",
   "streamlit>=1.46.1",
   "textual>=3.7.1"
 ]

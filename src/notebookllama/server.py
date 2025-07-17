@@ -1,4 +1,6 @@
-from utils import get_mind_map, process_file, query_index
+from querying import query_index
+from processing import process_file
+from mindmap import get_mind_map
 from fastmcp import FastMCP
 from typing import List, Union, Literal
 

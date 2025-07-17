@@ -6,14 +6,14 @@ from dotenv import load_dotenv
 
 from typing import Callable
 from pydantic import ValidationError
-from src.notebookllama.utils import (
+from src.notebookllama.processing import (
     process_file,
-    get_mind_map,
     md_table_to_pd_dataframe,
     rename_and_remove_current_images,
     rename_and_remove_past_images,
     MarkdownTextAnalyzer,
 )
+from src.notebookllama.mindmap import get_mind_map
 from src.notebookllama.models import Notebook
 
 load_dotenv()
