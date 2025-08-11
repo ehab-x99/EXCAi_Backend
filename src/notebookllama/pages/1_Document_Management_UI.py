@@ -55,10 +55,10 @@ def main():
             "About": "An OSS alternative to NotebookLM that runs with the power of a flully Llama!",
         },
     )
-    st.sidebar.header("Document Management📚")
-    st.sidebar.info("To switch to the other pages, select it from above!🔺")
+    st.sidebar.header("Document Management")
+    # st.sidebar.info("To switch to the other pages, select it from above!🔺")
     st.markdown("---")
-    st.markdown("## NotebookLlaMa - Document Management📚")
+    st.markdown("## Excai 3.0 - Document Management")
 
     # Slider for number of documents
     names = st.multiselect(
